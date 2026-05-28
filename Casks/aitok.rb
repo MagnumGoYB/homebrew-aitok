@@ -4,11 +4,11 @@ cask "aitok" do
 
   on_macos do
     on_intel do
-      sha256 "10371c4897df57a9fd336df23ec5560dfcca4b773bc00867e3c055a74c6e828e"
+      sha256 "677f9eb2788d5300dd28cf1b56fdcad9492ca53229b843e0fa1816a0a8bb323e"
       url "https://github.com/MagnumGoYB/aitok/releases/download/v#{version}/aitok_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "62015d849f890964e0a4167461f5226490b6bb5e3140e36ff2c1c8b86d534c0f"
+      sha256 "66a37c46214dc5bedf0b8bfcee2c8d8ede916029575708a10f3745a62cb681a9"
       url "https://github.com/MagnumGoYB/aitok/releases/download/v#{version}/aitok_#{version}_darwin_arm64.tar.gz"
     end
   end
